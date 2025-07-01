@@ -39,3 +39,5 @@ fn main() {
 ```
 
 ## 実装結果
+[ソースコードのドキュメントはこちら](rsDoc/algorithm_rs/issue01/)
+enumとstructを使ってみました。　カッコつけたかっただけです。　はい。
