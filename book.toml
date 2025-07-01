@@ -11,6 +11,9 @@ title = "algorithm.rs"
 
 after = ["links"]
 
+[output.html.playground]
+editable = true
+
 [output.html]
 additional-css = ["theme/pagetoc.css"]
 additional-js = ["theme/pagetoc.js"]
