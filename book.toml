@@ -4,3 +4,13 @@ language = "ja"
 multilingual = false
 src = "docs"
 title = "algorithm.rs"
+
+[preprocessor.pagetoc]
+[preprocessor.alerts]
+[preprocessor.katex]
+
+after = ["links"]
+
+[output.html]
+additional-css = ["theme/pagetoc.css"]
+additional-js = ["theme/pagetoc.js"]
