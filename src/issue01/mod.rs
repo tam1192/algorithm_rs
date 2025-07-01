@@ -2,9 +2,13 @@
 
 use std::fmt::Display;
 
-/// [FizzBuzzNumber]もつ構造体
+/// # fizzかbuzzかfizzbuzzか数値を表します
+/// 3の倍数か5の倍数か3と5の公倍数か、それ以外を表します。
 ///
-/// [FizzBuzzNumber]を隠蔽するために存在します。
+/// - 3の倍数: Fizz
+/// - 5の倍数: Buzz
+/// - 3と5の倍数: FizzBuzz
+/// - それ以外: 入力された数値
 pub struct FizzBuzz(FizzBuzzNumber);
 impl FizzBuzz {
     pub fn new(n: u32) -> Self {
@@ -25,9 +29,6 @@ impl Display for FizzBuzz {
     }
 }
 
-/// fizzかbuzzかfizzbuzzか数値を表すenum
-///
-/// 3の倍数か5の倍数か3と5の公倍数か、それ以外を表します。
 enum FizzBuzzNumber {
     Fizz,
     Buzz,
