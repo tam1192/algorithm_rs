@@ -1,6 +1,6 @@
 //! アルゴリズムの勉強をしたくなったわけですよ。
 
-mod issue01;
+pub mod issue01;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
