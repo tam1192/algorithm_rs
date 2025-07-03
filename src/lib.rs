@@ -4,6 +4,7 @@
 //! [https://tam1192.github.io/algorithm_rs/](https://tam1192.github.io/algorithm_rs/)です。
 
 pub mod issue01;
+pub mod issue02;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
